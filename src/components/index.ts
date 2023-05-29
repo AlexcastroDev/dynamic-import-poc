@@ -1,6 +1,7 @@
-import React from 'react';
+export const Modal = () => import('./Modal')
+export const Dialog = () => import('./Dialog')
 
-export default {
-    Modal: React.lazy(() => import('./Modal')),
-    Dialog: React.lazy(() => import('./Dialog')),
-}
+// export default {
+//     Modal: () => import('./Modal'),
+//     Dialog: () => import('./Dialog'),
+// }
