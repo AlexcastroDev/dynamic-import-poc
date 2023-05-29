@@ -5,3 +5,7 @@ export const Dialog = () => import('./Dialog')
 //     Modal: () => import('./Modal'),
 //     Dialog: () => import('./Dialog'),
 // }
+
+
+// export { default as Modal } from './Modal'
+// export { default as Dialog } from './Dialog'
